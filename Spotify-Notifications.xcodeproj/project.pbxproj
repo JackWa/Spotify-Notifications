@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0405DA521E1FE6660041466D /* GitHub-Mark-64px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405DA501E1FE6660041466D /* GitHub-Mark-64px.png */; };
 		0481818917E8626400E25950 /* status_bar_colour@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0481818817E8626400E25950 /* status_bar_colour@2x.tiff */; };
 		049BCBF218170F5E00743860 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049BCBF118170F5E00743860 /* Carbon.framework */; };
 		04A77BA3170FC75200A50173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A77BA2170FC75200A50173 /* Cocoa.framework */; };
@@ -70,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0405DA501E1FE6660041466D /* GitHub-Mark-64px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-Mark-64px.png"; sourceTree = "<group>"; };
 		0481818817E8626400E25950 /* status_bar_colour@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "status_bar_colour@2x.tiff"; sourceTree = "<group>"; };
 		049BCBF118170F5E00743860 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		04A77B9F170FC75200A50173 /* Spotify Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotify Notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0405DA4F1E1FC6790041466D /* MainMenu Images */ = {
+			isa = PBXGroup;
+			children = (
+				0405DA501E1FE6660041466D /* GitHub-Mark-64px.png */,
+			);
+			path = "MainMenu Images";
+			sourceTree = "<group>";
+		};
 		049BCBF418170FBC00743860 /* Status Bar Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +185,7 @@
 				04A77BB4170FC75200A50173 /* AppDelegate.h */,
 				04A77BB5170FC75200A50173 /* AppDelegate.m */,
 				04A77BB7170FC75300A50173 /* MainMenu.xib */,
+				0405DA4F1E1FC6790041466D /* MainMenu Images */,
 				04C5E40618133BB000956039 /* Images.xcassets */,
 				04A77BA9170FC75200A50173 /* Supporting Files */,
 			);
@@ -307,6 +318,7 @@
 				04A77BAD170FC75200A50173 /* InfoPlist.strings in Resources */,
 				04A77BB9170FC75300A50173 /* MainMenu.xib in Resources */,
 				0481818917E8626400E25950 /* status_bar_colour@2x.tiff in Resources */,
+				0405DA521E1FE6660041466D /* GitHub-Mark-64px.png in Resources */,
 				04A77BC317104FEE00A50173 /* status_bar_colour.tiff in Resources */,
 				AEAFCD771712CD1200F61F8D /* status_bar_black.tiff in Resources */,
 				961C56761BC93CFF00E0BF5A /* UserDefaults.plist in Resources */,
